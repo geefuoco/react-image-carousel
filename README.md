@@ -1,4 +1,4 @@
-#Image Carousel
+# Image Carousel
 
 An image carousel react component.
 
@@ -12,7 +12,7 @@ arrayOfImageObjects takes an array of objects with properties `source` and `alt`
 
 transitionTime is the time between transitions for the carousel in milliseconds
 
-```
+```javascript
 import ReactDOM from "react-dom"
 import ImageCarousel from "@geefuoco/react-image-carousel";
 import "@geefuoco/react-image-carousel/dist/index.css";
@@ -22,10 +22,11 @@ const imageObjects = [
 ]
 
 
-ReactDOM.render(document.createElement("div"), 
+ReactDOM.render( 
 <ImageCarousel
   arrayOfImageObjects={imageObjects}
   transitionTime={3000}
-/>)
+/>,
+document.createElement("div"))
 ```
 
