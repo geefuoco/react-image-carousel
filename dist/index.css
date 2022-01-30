@@ -1,0 +1,36 @@
+
+.hidden{
+  display: none;
+}
+
+.carousel-image{    
+  animation: fadeIn 1s;
+  min-height: 300px;
+  width: 300px;
+  flex: 1 0 300px;
+}
+
+#carousel-container{
+  padding: 1rem;
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#carousel{
+  display: flex;
+}
+
+@keyframes fadeIn{
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+@media screen and (max-width: 320px){
+  .carousel-image{
+    max-height: 150px;
+    max-width: 150px;
+  }
+}

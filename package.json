@@ -1,0 +1,15 @@
+{
+  "name": "@geefuoco/react-image-carousel",
+  "description": "An image carousel react component",
+  "author": "Gianluca Fuoco",
+  "keywords": ["react", "component", "image carousel"],
+  "version": "1.0.0",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": ["dist", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geefuoco/react-image-carousel"
+  }  
+}
